@@ -1,0 +1,16 @@
+{
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "dist"
+    ],
+    "compilerOptions": {
+      "jsx": "react",
+      "lib": [
+        "es2015", "dom"
+      ]
+    }
+  }
